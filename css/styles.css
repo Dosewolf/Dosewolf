@@ -724,6 +724,26 @@ p02 {
   margin-top: var(--bs-gutter-y);
 }
 
+.row2 {
+/*  --bs-gutter-x: 1.5rem;*/
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+/*  margin-top: calc(-1 * var(--bs-gutter-y));*/
+/*  margin-right: calc(-0.5 * var(--bs-gutter-x));*/
+/*  margin-left: calc(-0.5 * var(--bs-gutter-x));*/
+}
+/*
+.row2 > * {
+  flex-shrink: 0;
+  width: 100%;
+  max-width: 100%;
+  padding-right: calc(var(--bs-gutter-x) * 0.5);
+  padding-left: calc(var(--bs-gutter-x) * 0.5);
+  margin-top: var(--bs-gutter-y);
+}
+*/
+
 .col {
   flex: 1 0 0%;
 }
@@ -3996,6 +4016,7 @@ textarea.form-control-lg {
   border-top-right-radius: 0;
 }
 
+/*
 .nav {
   display: flex;
   flex-wrap: wrap;
@@ -4003,19 +4024,24 @@ textarea.form-control-lg {
   margin-bottom: 0;
   list-style: none;
 }
+*/
 
+/*
 .nav-link {
   display: block;
-  padding: 0.5rem 1rem;
+  padding: 1rem 2rem;
   color: #2937f0;
   text-decoration: none;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
 }
+*/
+/*
 @media (prefers-reduced-motion: reduce) {
   .nav-link {
     transition: none;
   }
 }
+*/
 .nav-link:hover, .nav-link:focus {
   color: #212cc0;
 }
@@ -12609,9 +12635,9 @@ p .example-title {
   background-image: linear-gradient(120deg, #2E0065, #7F8C4A);
 }
 */
-
+/*FECC00*/
 .css-selector {
-    background: linear-gradient(120deg, #2E0065, #7F8C4A,  #2E0065, #7F8C4A,  #2E0065);
+    background: linear-gradient(120deg, #FECC00, #1D5EA7, #FECC00, #1D5EA7);
     background-size: 400% 400%;
 
     -webkit-animation: AnimationName 30s ease infinite;
@@ -12620,7 +12646,16 @@ p .example-title {
 }
 
 .css-selector2 {
-    background: linear-gradient(120deg, #2E0065, coral,  #2E0065, coral,  #2E0065);
+    background: linear-gradient(120deg, black, #1D5EA7, black, #1D5EA7);
+    background-size: 400% 400%;
+
+    -webkit-animation: AnimationName 30s ease infinite;
+    -moz-animation: AnimationName 30s ease infinite;
+    animation: AnimationName 30s ease infinite;
+}
+
+.css-selector3 {
+    background: linear-gradient(120deg, #F8F9F8, #FECC00, #F8F9F8, #222427);
     background-size: 400% 400%;
 
     -webkit-animation: AnimationName 30s ease infinite;
@@ -12865,10 +12900,11 @@ p .example-title {
   width: 100%;
 }
 
+/*
 
 .trial {
   border-radius: 5px;
-/*  letter-spacing: 1px;*/
+  letter-spacing: 1px;
   font-weight: 700;
   color: black;
   border: none;
@@ -12889,6 +12925,7 @@ p .example-title {
     position: relative;
     top: 3px;
 }
+*/
 
 
 
