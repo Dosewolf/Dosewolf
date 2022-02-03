@@ -12900,7 +12900,7 @@ p .example-title {
   width: 100%;
 }
 
-/*
+
 
 .trial {
   border-radius: 5px;
@@ -12916,16 +12916,16 @@ p .example-title {
   display: inline-block;
 
     font-family: -apple-system, BlinkMacSystemFont, sans-serif;
-      font-size: 13px;
-    padding: 6px 10px;
-    height: 30px;
+      font-size: 11px;
+    padding: 2px 6px;
+    height: 20px;
     text-decoration: none;
   background-color: #F8C700;
   color: black;
     position: relative;
     top: 3px;
 }
-*/
+
 
 
 
