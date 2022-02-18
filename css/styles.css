@@ -1957,7 +1957,17 @@ a:hover.back-to-top {
 
 /* Min-width width 992px */
 @media (min-width: 992px) {
-    
+     .header .image-container {
+/*		margin-left: 3rem;*/
+        position: relative;
+        top: -60px;
+        left: 40px;
+/*
+        width: 90%;
+        height: auto;
+*/
+	}
+	
     .coled{
 /*        padding-left: 15px; */
         padding-right: 15px; 
